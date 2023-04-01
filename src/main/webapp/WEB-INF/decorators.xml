@@ -1,0 +1,12 @@
+<!-- dùng để thiết lập url -->
+<decorators defaultdir="/WEB-INF/views/playout">
+
+	<decorator name="user" page="user.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri/*</pattern>
+	</decorator>
+	
+</decorators>
